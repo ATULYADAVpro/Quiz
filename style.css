@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* background: rgb(126,87,194); */
+    background: linear-gradient(90deg, rgba(126,87,194,1) 0%, rgba(92,107,192,1) 50%, rgba(66,165,245,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+}
+.container
+{
+    /* height: 60%; */
+    background:#d1c4e9 ;
+    box-shadow: 8px 3px 10px 0px rgba(0, 0, 0, 0.699);
+    border-radius: 40px;
+    /* width: 40rem; */
+    padding: 5px;
+    text-align: center;
+}
+.questionDiv
+{
+  /* border: 2px solid red; */
+  padding: 10px;
+  border-bottom: 2px solid;
+  width: 94%;
+  margin: 0 auto;
+text-align: center;
+margin-bottom: 20px;
+/* border: 2px solid red; */
+}
+
+.row
+{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    width: 95%;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 7px;
+    text-align: left;
+
+}
+.row input
+{
+    padding: 5px;
+    margin-left: 4px;
+}
+.btn
+{
+    height: 3rem;
+    border: none;
+    margin: 2rem 1rem;
+    width: 95%;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px;
+    background: linear-gradient(90deg, rgba(126,87,194,1) 0%, rgba(92,107,192,1) 50%, rgba(66,165,245,1) 100%);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.btn:hover
+{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) */
+    box-shadow: 1px 1px 5px inset;
+}
